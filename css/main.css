@@ -146,7 +146,7 @@ nav ul li a {
 
 /******** ABOUT **********/
 #about {
-	background-color: #91b7c7;
+	background: #91b7c7;
 }
 
 #about .full-width {
@@ -253,5 +253,24 @@ span.wave {
 }
 /******** FOOTER **********/
 footer {
-	background: #ebebeb;
+	background: #91b7c7;
 }
+
+footer p {
+	font-family: 'Playfair Display', serif;
+	font-size: 16px;
+}
+
+#attribution {
+	float: right;
+}
+.attr-p {	
+	font-size: 12px;
+	padding: 10px 0 0 0;
+}
+
+footer a {
+	color: #000000;
+	text-decoration: none;
+}
+
