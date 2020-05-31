@@ -1,0 +1,257 @@
+/********BASE STYLES*********/
+body {
+	font-family: 'Playfair Display', serif;
+	color: #2b2b2b;
+}
+/********GRID**********/
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+.half-width {
+	width: 600px;
+	float: left;
+}
+.third-width {
+	width: 400px;
+	float: left;
+}
+#logo {
+	width: 220px;
+	float: left;
+}
+#heading {
+	display: block;
+	margin-top: 135px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 450px;
+}
+/******** HEADER **********/
+header {
+	height: 800px;
+	background: url("../img/full-background.png");
+	background-size: cover;
+	background-position: center;
+}
+#logo h1 {
+	font-family: 'Vast Shadow', cursive;
+	font-size: 26px;
+	line-height: 26px;
+	letter-spacing: 0;
+	padding: 20px 0 0 0;
+	margin: 0;
+	text-align: center;
+}
+#logo h3 {
+	font-family: serif;
+	font-size: 12px;
+	font-weight: lighter;
+	letter-spacing: 10px;
+	line-height: 12px;
+	padding: 0 0 0 0;
+	margin: 0;
+	text-align: center;
+}
+nav {
+	float: right;
+	padding: 20px 0 0 0;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+	color: #91b7c7;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#heading h1 {
+	font-family: 'Vast Shadow', cursive;
+	font-size: 26px;
+	text-align: center;
+}
+.button a {
+	color: #fcfffc;
+	font-style: 'Playfair Display', serif;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.button {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #91b7c7;
+	border-radius: 20px;
+ 	padding: 10px;
+  	width: 240px;
+}
+/******** SERVICES **********/
+#services {
+	background: #ebebeb;
+}
+#services .full-width {
+	padding: 100px 0 100px 0;
+}
+#services h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+#services img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+}
+#services p {
+	font-size: 18px;
+	line-height: 34px;
+	padding: 0 15px 0 15px;
+	text-align: center;
+}
+/******** WORK **********/
+#work {
+	height: 800px;
+}
+
+#work .full-width {
+	padding: 50px 0 50px 0;
+}
+
+#work h1 {
+	font-family: 'Vast Shadow', cursive;
+	font-size: 32px;
+	line-height: 40px;
+	margin: 0;
+	padding: 300px 0 100px 0;
+}
+#work a {
+	color: black;
+	font-family: 'Vast Shadow', cursive;
+	font-size: 16px;
+	line-height: 30px;
+	padding: 100px 0 0 0;
+	text-decoration: none;
+}
+#work img {
+	height: 700px;
+}
+
+
+
+/******** ABOUT **********/
+#about {
+	background-color: #91b7c7;
+}
+
+#about .full-width {
+	padding: 200px 0 100px 0;
+}
+
+#about h1 {
+	font-family: 'Vast Shadow', cursive;
+	font-size: 32px;
+	line-height: 40px;
+	margin: 0;
+}
+#about p {
+	font-size: 18px;
+	line-height: 30px;
+	padding: 0 50px 0 0;
+	text-align: justify;
+}
+#about img {
+	margin-left: 150px;
+	width: 350px;
+	border: 25px solid white;
+}
+
+
+/******** CONTACT **********/
+#contact {
+	background: #ebebeb;
+}
+
+#contact .full-width {
+	padding: 110px 0;
+	overflow: auto;
+}
+
+#contact .half-width {
+	overflow: auto;
+}
+#contact img#contact-img {
+	width: 550px;
+	border: 25px solid white;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 15px 10px 0 115px;
+    width: 30px;
+}
+
+#contact h2 {
+    font-family: 'Playfair Display', serif;
+    line-height: 44px;
+}
+#contact #email-header {
+	font-family: 'Vast Shadow', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-family: 'Vast Shadow', cursive;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 20px;
+}	
+span.wave {
+  animation-name: wave-animation;    /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.5s;          /* Change to speed up or slow down */
+  animation-iteration-count: infinite;    /* Never stop waving :) */
+  transform-origin: 70% 70%;         /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+    0% { transform: rotate(  0.0deg) }
+   10% { transform: rotate(-10.0deg) }    /* The following four values can be played with to make the waving more or less extreme */
+   20% { transform: rotate( 12.0deg) }
+   30% { transform: rotate(-10.0deg) }
+   40% { transform: rotate(  9.0deg) }
+   50% { transform: rotate(  0.0deg) }    /* Reset for the last half to pause */
+  100% { transform: rotate(  0.0deg) }
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 38px;
+    width: 50px;
+}
+/******** FOOTER **********/
+footer {
+	background: #ebebeb;
+}
